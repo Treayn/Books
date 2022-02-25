@@ -9,7 +9,7 @@ Service to pull data off O'Reily API.
 - `chmod 755` all scripts in `./cicd/scripts/*` to allow then to be executed.
 
 ### Run locally
-- ./cicd/scripts/run_local.sh
+- `./cicd/scripts/run_local.sh` to build Docker container.
 - Navigate to localhost/books in your browser.
 - `./cicd/scripts/post_data.sh localhost` to POST test data.
 
