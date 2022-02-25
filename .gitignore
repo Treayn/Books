@@ -1,0 +1,2 @@
+cicd/scripts/push_containers.sh
+cicd/scripts/start_minikube.sh
