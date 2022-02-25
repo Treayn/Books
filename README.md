@@ -11,11 +11,13 @@ Service to pull data off O'Reily API.
 ### Run locally
 - ./cicd/scripts/run_local.sh
 - Navigate to localhost/books in your browser.
+- `./cicd/scripts/post_data.sh localhost` to POST test data.
 
 ### Run on minikube
 - `minikube start` to bring up minikube cluster.
 - `./cicd/scripts/deploy_minikube.sh` to deploy books-app to cluster.
-- `deploy_minikube.sh` will report a url that can be used to access the service in the cluster.
+- `deploy_minikube.sh` will report a url & port that can be used to access the service in the cluster.
+- `./cicd/scripts/post_data.sh <base_url>` to POST test data (ex. `./cicd/scripts/post_data.sh http://192.168.10.10:31033`)
 
 ### Endpoints
 - `./cicd/scripts/post_data.sh` will allow for test data to be posted to `/books`.
